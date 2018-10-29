@@ -1,0 +1,16 @@
+javac Mistake2.java
+----M1 and M2 not found in Package my; package is not available so cant implement interfaces and generate compilation error
+
+javac *.java
+---all files are compiled together  so every interface or class will be available at compile time but not available at run time. so program will compile but cant run. becaurse class is serching class files in my package which is not available
+
+
+Make package manually --by javac *.java
+----this is justa a jugaad
+
+compile Parent classes or interfaces and put them in package manually -- by javac My1.java
+javac My2.java
+copy them into package
+javac Mistake2.java
+then copy Mistake2.java in package.
+-----this is also a jugaad

@@ -1,0 +1,3 @@
+one file can have only one public class
+
+requirement to make every class public 
